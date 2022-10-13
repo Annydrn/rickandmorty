@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+max-width: 1600px;
+}
+
+body {
+    background-image: url(../public/img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.section_initial {
+    background-image: radial-gradient(circle at 50% -20.71%, #ffffa3 0, #ffffa1 5.56%, #f8ffa0 11.11%, #e7ffa0 16.67%, #d4ffa1 22.22%, #c0ffa3 27.78%, #a9fea6 33.33%, #8efbaa 38.89%, #6df7af 44.44%, #3cf2b5 50%, #00edbd 55.56%, #00e8c6 61.11%, #00e3d1 66.67%, #00dfde 72.22%, #00dbea 77.78%, #00d7f8 83.33%, #00d3ff 88.89%, #00cfff 94.44%, #00cbff 100%);
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 1.5px 1.5px 0px 0px;
+    min-height: 16vh;
+    width: 100vw;
+}
+
+.title_initial {
+    font-size: 8rem;
+    font-family: 'Inspiration', cursive;  
+    color: darkcyan;
+    text-shadow: 2px 2px 3px rgb(53, 51, 51),
+        0px 4px 4px rgba(151, 238, 74, 0.5),
+        4px 4px 8px rgba(187, 243, 123, 0.7),
+        0px 0px 10px rgba(153, 229, 13, 0.4);
+        display: flex;
+        justify-content: center;
+    align-items: center;    
+}
+
+.title_principal {
+    font-size: 200%;
+    padding: 1.5rem;
+    color: rgb(53, 51, 51);
+    text-shadow: 5px 0px 3px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: rgb(224, 226, 221);
+    font-family: serif;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+
+}
+.button_search {
+    color: red;
+    font-size: 1.3em;
+    padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button_search:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.search_name {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+flex-wrap: wrap;    
+}
